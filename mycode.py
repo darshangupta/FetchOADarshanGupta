@@ -24,6 +24,7 @@ for i in range(df.shape[0]):
             newVal = neg['points'] + r['points']
             df.at[neg.name, 'points'] = newVal
             df = df.drop(index=0)
+#used given balance
 balance = 5000
 for i in range(df.shape[0]):
   row = df.iloc[i]
